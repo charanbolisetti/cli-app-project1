@@ -47,4 +47,13 @@ function load(question,answer){
     question: chalk.green("which actor i like the most? "),
     answer: "pawan kalyan"
   }
+
+
+  var questions=[questionOne,questionTwo,questionThree,questionFour,questionFive];
+for(var i=0;i<questions.length;i++){
+  var currentQuestion=questions[i];
+  load(currentQuestion.question,currentQuestion.answer);
+}
+
+console.log(chalk.bgRed.underline.bold("Yay,Your final score is " + score));
   
