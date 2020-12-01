@@ -21,3 +21,30 @@ function load(question,answer){
     console.log(chalk.yellowBright("Your score is " + score));
     console.log("---------------");
   }
+
+
+  var questionOne={
+    question: chalk.green("Who is my best friend? "),
+    answer: "raju"
+  }
+  
+  var questionTwo={
+    question: chalk.green("Which mobile company i like the most? "),
+    answer: "samsung"
+  }
+  
+  var questionThree={
+    question: chalk.green("how old am i? "),
+    answer: "21"
+  }
+  
+  var questionFour={
+    question: chalk.green("where do i live? "),
+    answer: "magatapalli"
+  }
+  
+  var questionFive={
+    question: chalk.green("which actor i like the most? "),
+    answer: "pawan kalyan"
+  }
+  
